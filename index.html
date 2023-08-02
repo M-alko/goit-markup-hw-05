@@ -346,6 +346,7 @@
         </main>
         <footer class="footer ">
         <div class="container footer-box">
+            
             <div class="footer-logo">
                     <a href="./index.html" class="footer-first-logo  link">Web<span class="footer-second-logo ">Studio</span></a>
                     <p class="footer-text text-list ">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
@@ -392,11 +393,24 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="subscribe-box">
+                        <p class="subscribe-text">Subscribe</p>
+                        <form class="subscribe-form">
+                            <label class="label-subscribe">
+                        <input type=" email" name="subscribe-inp" placeholder="E-mail" class="sub-input">
+                            </label>
+                            <button class="subscribe-btn" type="submit">
+                                Subscribe
+                                <svg class="frame-icon" width="24" height="24" >
+                                <use href="./images/icons.svg#icon-frame"
+                            </svg></button>
+                        </form>
+                    </div>
 
                 </div>
 
         </footer>
-        <div class="backdrop is-hidde" data-modal>
+        <div class="backdrop is-hidden" data-modal>
             <div class="modal " > 
                 <button type="button" class="modal-close" data-modal-close>
                 <svg class="modal-icon-close" width="8" height="8">
@@ -412,8 +426,55 @@
                         </label>
                         <div class="name-box">
                             <input type="text" id="user-name" name="user-name" class="input-name">
+                            <svg class="person-inp" width="18" height="24">
+                               <use href="./images/icons.svg#input-person"></use>
+                            </svg>
 
                         </div>
+                        <div>
+                            <label class="name-lable" for="phone-inp">
+                                        Phone
+    
+                            </label>
+                            <div class="name-box">
+                                <input type="text" id="phone-inp" name="phone-name" class="input-name">
+                                <svg class="person-inp" width="18" height="24">
+                                   <use href="./images/icons.svg#input-tel"></use>
+                                </svg>
+    
+                            </div>
+                            <div>
+                                <label class="name-lable" for="mail-inp">
+                                            Email
+        
+                                </label>
+                                <div class="name-box">
+                                    <input type="text" id="mail-inp" name="mail-name" class="input-name">
+                                    <svg class="person-inp" width="18" height="24">
+                                       <use href="./images/icons.svg#input-mail"></use>
+                                    </svg>
+        
+                                </div>
+                                <div>
+                                    <label class="name-lable" for="user-comment">
+                                                Comment
+            
+                                    </label>
+                                    <div class="name-box">
+                                        <textarea class="modal-textarea" name="user-comment" id="user-comment cols="30" rows="10" placeholder="Text input"></textarea>
+                                        
+                                    </div>
+                                    <div class="checkbox-container">
+                                    <input type="checkbox" value="true" id="user-privacy" name="user-privacy" class="checkbox-inp visually-hidden" >
+                                    <label class="checkbox-lable" for="user-privacy"> <span class="modal-span"> 
+                                        <svg class="checkbox-icon" width="10" height="8">
+                                            <use href="./images/icons.svg#icon-checkbox"
+                                        </svg>
+                                    </span> I accept the terms and conditions of the <a href="" class="modal-link">Privacy Policy</a></label>
+                                    
+                                    </div>
+                                    <button class="modal-btn"> Send</button>
+                                
                    
                 </form>
             </div>
