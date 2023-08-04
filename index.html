@@ -419,11 +419,12 @@
                 </button>
                 <p class="modal-title">Leave your contacts and we will call you back</p>
                 <form>
-                    
+                    <div class="container-form">
                         <label class="name-lable" for="user-name">
                                     Name
 
                         </label>
+                    
                         <div class="name-box">
                             <input type="text" id="user-name" name="user-name" class="input-name">
                             <svg class="person-inp" width="18" height="24">
@@ -431,7 +432,8 @@
                             </svg>
 
                         </div>
-                        
+                    </div>
+                        <div class="container-form">
                             <label class="name-lable" for="phone-inp">
                                         Phone
     
@@ -443,7 +445,8 @@
                                 </svg>
     
                             </div>
-                            
+                        </div>
+                            <div class="container-form">
                                 <label class="name-lable" for="mail-inp">
                                             Email
         
@@ -453,8 +456,9 @@
                                     <svg class="person-inp" width="18" height="24">
                                        <use href="./images/icons.svg#input-mail"></use>
                                     </svg>
-        
                                 </div>
+                                </div>
+                                <div class="container-form">
                                 
                                     <label class="name-lable" for="user-comment">
                                                 Comment
@@ -465,6 +469,7 @@
                                         <textarea class="modal-textarea" name="user-comment" id="user-comment"  cols="30" rows="10" placeholder="Text input"></textarea>
                                         
                                     </div>
+                                </div>
                                     <div class="checkbox-container">
                                     <input type="checkbox" value="true" id="user-privacy" name="user-privacy" class="checkbox-inp visually-hidden" >
                                     <label class="checkbox-lable" for="user-privacy"> <span class="modal-span"> 
