@@ -721,7 +721,7 @@ align-items: flex-start;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .input-name:focus + .person-inp {
-  fill: var(--avctive);
+  fill: var(--primary-brand);
  }
  .input-name:focus {
   border-color: var(--primary-brand);
@@ -746,7 +746,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
  }
  .modal-textarea:focus {
-  border-color: var(--avctive);
+  border-color: var(--primary-brand);
  }
  .checkbox-container {
   margin-bottom: 24px;
